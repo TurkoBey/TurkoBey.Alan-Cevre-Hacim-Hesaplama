@@ -216,7 +216,7 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
             }
             else if (listBox1.SelectedIndex == 3)
             {
-                string result = (txtA.Text != "" && txtC.Text != "") ? txtSonuc.Text = dikdortgenAlanHesapla() : UyariMesajVer();
+                string result = (txtA.Text != "" && txtH.Text != "") ? txtSonuc.Text = dikdortgenAlanHesapla() : UyariMesajVer();
             }
             else if (listBox1.SelectedIndex == 4)
             {
@@ -343,7 +343,7 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
         }
         private string dikdortgenAlanHesapla()
         {
-            return hesaplama.dikdortgenAlanHesapla(Convert.ToInt32(txtA.Text), Convert.ToInt32(txtC.Text)).ToString() + " cm2";
+            return hesaplama.dikdortgenAlanHesapla(Convert.ToInt32(txtA.Text), Convert.ToInt32(txtH.Text)).ToString() + " cm2";
         }
         private string daireHesapla()
         {

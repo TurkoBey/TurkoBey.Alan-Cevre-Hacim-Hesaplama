@@ -8,3 +8,13 @@ C:\Users\ROOT\source\repos\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cev
 C:\Users\ROOT\source\repos\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.exe
 C:\Users\ROOT\source\repos\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.pdb
 C:\Users\ROOT\source\repos\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.csproj.AssemblyReference.cache
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\bin\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.exe.config
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\bin\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.exe
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\bin\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.pdb
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.csproj.AssemblyReference.cache
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan_Cevre_Hacim_Hesapla.Form1.resources
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan_Cevre_Hacim_Hesapla.Properties.Resources.resources
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.csproj.GenerateResource.cache
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.csproj.CoreCompileInputs.cache
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.exe
+C:\Users\ROOT\Documents\GitHub\TurkoBey.Alan-Cevre-Hacim-Hesaplama\TurkoBey.Alan-Cevre-Hacim-Hesapla\obj\Debug\TurkoBey.Alan-Cevre-Hacim-Hesapla.pdb
