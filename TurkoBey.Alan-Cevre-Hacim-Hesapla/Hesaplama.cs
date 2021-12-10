@@ -209,15 +209,59 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
             return dikA * dikB * dikH;
         }
         #endregion
-       
-        #region KareHacimHesapla
-        public int kareHacimHesapla(int dikA)
+
+        #region KupHacimHesapla
+        public int kupHacimHesapla(int dikA)
         {
-            return result = kareHacim(dikA);
+            return result = kupHacim(dikA);
         }
-        public int kareHacim(int dikA)
+        public int kupHacim(int dikA)
         {
             return dikA * dikA * dikA;
+        }
+        #endregion
+
+        #region KureHacimHesapla
+        public double kureHacimHesapla(double dikA)
+        {
+            return dResult = kureHacim(dikA);
+        }
+        public double kureHacim(double dikA)
+        {
+            return Math.PI * dikA * 3 * 4 / 3;
+        }
+        #endregion
+
+        #region SilidirHacimHesapla
+        public double silindirHacimHesapla(double dikA, double dikH)
+        {
+            return dResult = silindirHacim(dikA, dikH);
+        }
+        public double silindirHacim(double dikA, double dikH)
+        {
+            return Math.PI * dikA * dikA * dikH;
+        }
+        #endregion
+        
+        #region KoniHacimHesapla
+        public double koniHacimHesapla(double dikA, double dikH)
+        {
+            return dResult = koniHacim(dikA, dikH);
+        }
+        public double koniHacim(double dikA, double dikH)
+        {
+            return Math.PI * dikA * dikA * dikH * 1 / 3;
+        }
+        #endregion
+        
+        #region KarepiramitHacimHesapla
+        public double karepiramitHacimHesapla(double dikA, double dikH)
+        {
+            return dResult = karepiramitHacim(dikA, dikH);
+        }
+        public double karepiramitHacim(double dikA, double dikH)
+        {
+            return ((dikA * dikA) * dikH) * 1 / 3;
         }
         #endregion
     }
