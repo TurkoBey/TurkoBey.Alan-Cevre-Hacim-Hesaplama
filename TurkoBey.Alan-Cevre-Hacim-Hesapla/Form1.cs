@@ -253,7 +253,7 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
             }
             else if (listBox1.SelectedIndex == 5)
             {
-                string result = (txtA.Text != "" && txtB.Text != "" && txtC.Text != "") ? txtSonuc.Text = yamukAlanHesapla() : UyariMesajVer();
+                string result = (txtA.Text != "" && txtB.Text != "" && txtH.Text != "") ? txtSonuc.Text = yamukAlanHesapla() : UyariMesajVer();
             }
             else if (listBox1.SelectedIndex == 6)
             {
@@ -396,7 +396,7 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
         }
         private string yamukAlanHesapla()
         {
-            return hesaplama.yamukAlanHesapla(int.Parse(txtA.Text), int.Parse(txtB.Text), int.Parse(txtC.Text)).ToString() + " cm2";
+            return hesaplama.yamukAlanHesapla(int.Parse(txtA.Text), int.Parse(txtB.Text), int.Parse(txtH.Text)).ToString() + " cm2";
         }
         #endregion
 
