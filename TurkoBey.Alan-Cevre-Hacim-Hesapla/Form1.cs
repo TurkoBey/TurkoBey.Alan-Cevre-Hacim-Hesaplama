@@ -17,6 +17,13 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
         {
             InitializeComponent();
         }
+  /*
+
+[Hacim] Küp
+[Hacim] Küre
+[Hacim] Silindir
+[Hacim] Koni
+[Hacim] Kare Piramit*/
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -167,42 +174,6 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
                     txtB.Visible = true;
                     txtH.Visible = true;
                 }
-                else if (listBox1.SelectedItem.ToString() == "[ Hacim ] Küp")
-                {
-                    Clear();
-                    Label1.Visible = true;
-                    txtA.Visible = true;
-                }
-                else if (listBox1.SelectedItem.ToString() == "[ Hacim ] Küre")
-                {
-                    Clear();
-                    Label1.Visible = true;
-                    txtA.Visible = true;
-                }
-                else if (listBox1.SelectedItem.ToString() == "[ Hacim ] Silindir")
-                {
-                    Clear();
-                    Label1.Visible = true;
-                    Label3.Visible = true;
-                    txtA.Visible = true;
-                    txtH.Visible = true;
-                }
-                else if (listBox1.SelectedItem.ToString() == "[ Hacim ] Koni")
-                {
-                    Clear();
-                    Label1.Visible = true;
-                    Label3.Visible = true;
-                    txtA.Visible = true;
-                    txtH.Visible = true;
-                }
-                else if (listBox1.SelectedItem.ToString() == "[ Hacim ] Kare Piramit")
-                {
-                    Clear();
-                    Label1.Visible = true;
-                    Label3.Visible = true;
-                    txtA.Visible = true;
-                    txtH.Visible = true;
-                }
 
                 else
                 {
@@ -224,7 +195,7 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
             txtA.Visible = false;
             txtB.Visible = false;
             txtC.Visible = false;
-            txtH.Visible = false;
+            txtH.Visible = false; 
             txtA.Text = "";
             txtB.Text = "";
         }
@@ -253,7 +224,7 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
             }
             else if (listBox1.SelectedIndex == 5)
             {
-                string result = (txtA.Text != "" && txtB.Text != "" && txtH.Text != "") ? txtSonuc.Text = yamukAlanHesapla() : UyariMesajVer();
+                string result = (txtA.Text != "" && txtB.Text != "" && txtC.Text != "") ? txtSonuc.Text = yamukAlanHesapla() : UyariMesajVer();
             }
             else if (listBox1.SelectedIndex == 6)
             {
@@ -305,23 +276,7 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
             }
             else if (listBox1.SelectedIndex == 18)
             {
-                string result = (txtA.Text != "") ? txtSonuc.Text = kupHacimHesapla() : UyariMesajVer();
-            }
-            else if (listBox1.SelectedIndex == 19)
-            {
-                string result = (txtA.Text != "") ? txtSonuc.Text = kureHacimHesapla() : UyariMesajVer();
-            }
-            else if (listBox1.SelectedIndex == 20)
-            {
-                string result = (txtA.Text != "" && txtH.Text != "") ? txtSonuc.Text = silindirHacimHesapla() : UyariMesajVer();
-            }
-            else if (listBox1.SelectedIndex == 21)
-            {
-                string result = (txtA.Text != "" && txtH.Text != "") ? txtSonuc.Text = koniHacimHesapla() : UyariMesajVer();
-            }
-            else if (listBox1.SelectedIndex == 22)
-            {
-                string result = (txtA.Text != "" && txtH.Text != "") ? txtSonuc.Text = karepiramitHacimHesapla() : UyariMesajVer();
+                string result = (txtA.Text != "") ? txtSonuc.Text = kareHacimHesapla() : UyariMesajVer();
             }
         }
 
@@ -396,7 +351,7 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
         }
         private string yamukAlanHesapla()
         {
-            return hesaplama.yamukAlanHesapla(int.Parse(txtA.Text), int.Parse(txtB.Text), int.Parse(txtH.Text)).ToString() + " cm2";
+            return hesaplama.yamukAlanHesapla(int.Parse(txtA.Text), int.Parse(txtB.Text), int.Parse(txtC.Text)).ToString() + " cm2";
         }
         #endregion
 
@@ -405,25 +360,9 @@ namespace TurkoBey.Alan_Cevre_Hacim_Hesapla
         {
             return hesaplama.dikdortgenlerPrizmasiHacimHesapla(Convert.ToInt32(txtA.Text), Convert.ToInt32(txtB.Text), Convert.ToInt32(txtH.Text)).ToString() + " cm3";
         }
-        private string kupHacimHesapla()
+        private string kareHacimHesapla()
         {
-            return hesaplama.kupHacimHesapla(Convert.ToInt32(txtA.Text)).ToString() + " cm3";
-        }
-        private string kureHacimHesapla()
-        {
-            return hesaplama.kureHacimHesapla(Convert.ToDouble(txtA.Text)).ToString() + " cm3";
-        }
-        private string silindirHacimHesapla()
-        {
-            return hesaplama.silindirHacimHesapla(Convert.ToDouble(txtA.Text), Convert.ToDouble(txtH.Text)).ToString() + " cm3";
-        }
-        private string koniHacimHesapla()
-        {
-            return hesaplama.koniHacimHesapla(Convert.ToDouble(txtA.Text), Convert.ToDouble(txtH.Text)).ToString() + " cm3";
-        }
-        private string karepiramitHacimHesapla()
-        {
-            return hesaplama.karepiramitHacimHesapla(Convert.ToDouble(txtA.Text), Convert.ToDouble(txtH.Text)).ToString() + " cm3";
+            return hesaplama.kareHacimHesapla(Convert.ToInt32(txtA.Text)).ToString() + " cm3";
         }
         #endregion
         private string UyariMesajVer()
